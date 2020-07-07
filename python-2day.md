@@ -8,17 +8,17 @@
 >조건식
 
 1. 숫자비교
-	클경우 0<10 10>11
-	크거나 같다 3<=10 15>=10
-	같다 5 == 5
-	같지 않다 5 != 10
-	부등호의 순서가 바뀌면 오류가난다.
+	클경우 0<10 10>11  
+	크거나 같다 3<=10 15>=10  
+	같다 5 == 5  
+	같지 않다 5 != 10  
+	부등호의 순서가 바뀌면 오류가난다.  
 2. boolean 연산
-	and 연산
-		두 조건이 모두 참인지를 체크
-	or 연산
-		두 조건 중 하나라도 참이다
-	not 연산
+	and 연산  
+		두 조건이 모두 참인지를 체크  
+	or 연산  
+		두 조건 중 하나라도 참이다  
+	not 연산  
 		true/false를 뒤집기 위해 사용
 
 >블럭
@@ -32,22 +32,22 @@
 
 >if else
 
-1. else
-	if mine == yesrs:
-		result = DRAW
-	else:
-		result = '이기거나 지거나'
+1. else  
+	if mine == yesrs:  
+		result = DRAW  
+	else:  
+		result = '이기거나 지거나'  
 
-	이런식으로 else는 반드시 if뒤에 나와야 하고
+	이런식으로 else는 반드시 if뒤에 나와야 하고  
 	if의 조건이 맞지 않은 경우 항상 실행
-2. elif
-	if mine == SCISSOR:
-		result = '가위'
-	elif mine == ROCK:
-		result = '바위'
-	else:
-		result = '나머지'
-	이런식으로 else와 if의 결합으로 조건이 맞지 않는 경우 다른 경우를 검사
+2. elif  
+	if mine == SCISSOR:  
+		result = '가위'  
+	elif mine == ROCK:  
+		result = '바위'  
+	else:  
+		result = '나머지'  
+	이런식으로 else와 if의 결합으로 조건이 맞지 않는 경우 다른 경우를 검사  
 	기느의 차이가 아닌 보이는 것의 차이 이다.
 	
 >함수
@@ -57,11 +57,11 @@
 3. print는 미리 만들어진 함수이다.
 4. 함수를 한번 만들고 나면, 그 안은 잊어버려도 좋다.
 
-	def function(): ## 함수의 정의
-		print ('안녕, 함수!')
-	print('첫줄 실행')
-	function()
-	print('끝줄 실행')
+	def function(): ## 함수의 정의  
+		print ('안녕, 함수!')  
+	print('첫줄 실행')  
+	function()  
+	print('끝줄 실행')  
 
 >매개변수
 
@@ -71,16 +71,17 @@
 	매개변수와 실행 인자의 개수는 동일해야 한다.
 	여러 개일 경우 쉼표로 구분
 	
-	def print_round(number):
-		rounded = round(number)
-		print(rounded)
+	def print_round(number):  
+		rounded = round(number)  
+		print(rounded)  
 	
-	print_round(4.6)
-	print_rount(2.2)
+	print_round(4.6)  
+	print_rount(2.2)  
 	
 > 함수의 값
 
-1. 함수
+1. 함수  
+
 	return을 이용해 값을 돌려줄 수 있다.
 	
 	def add_10(value):
@@ -90,5 +91,6 @@
 	n = add_10(5)
 	print(n)
 	
-2. 여러 값 반환
+2. 여러 값 반환  
+
 	return 뒤에 여러값을 쉼표로 구분해서 값을 보내고, 받을 때도 쉼표로 구분하여 받는다.

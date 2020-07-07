@@ -31,13 +31,13 @@
 6. 파이썬 코드 전체를 하나의 블럭으로 볼 수 있다.
 
 >if else
-
+#
 1. else
 	if mine == yesrs:
 		result = DRAW
 	else:
 		result = '이기거나 지거나'
-	
+#	
 	이런식으로 else는 반드시 if뒤에 나와야 하고
 	if의 조건이 맞지 않은 경우 항상 실행
 2. elif

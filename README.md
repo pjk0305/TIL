@@ -1,4 +1,4 @@
 # TIL
 
-> test 1
+> Welcome to my Python growth diary.
 

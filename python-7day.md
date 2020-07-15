@@ -17,4 +17,14 @@
 	빈문자열을 제외한 모든 문자열 - true  
 	
 
->
+>list의 다양한 기능
+
+1. list의 기능  
+	list.index( value ) : 값을 이용하여 위치를 찾는 기능  
+	list.extend( [value1, value2] ) : 리스트 뒤에 값을 추가  
+	list.insert( index, value ) : 원하는 위치에 값을 추가  
+	list.sort( ) : 값을 순서대로 정렬  
+	list.reverse( ) : 값을 역순으로 정렬  
+	
+2. list
+	

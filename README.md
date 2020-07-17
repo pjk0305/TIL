@@ -1,4 +1,4 @@
 # TIL
 
-> Welcome to my Python growth diary.
+> Welcome to my growth diary.
 

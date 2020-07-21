@@ -6,5 +6,5 @@
 
 2. HTML문서의 전체적인 구조를 살펴보자
 
-![그림01.jpg](C:\Users\parkj\Desktop\깃허브정리\그림01.jpg)
+![그림01](C:\Users\parkj\Desktop\깃허브정리\그림01.jpg)
 

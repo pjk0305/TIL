@@ -6,17 +6,4 @@
 
 2. HTML문서의 전체적인 구조를 살펴보자
 
-//
- <!DOCTYPE html>
- 
- <html lang= "en" xmlns="http://www.w3.org/1999/xhtml">  
- <head>  
-	<meta charset="utf-8" />  
-	<title>TITLE</title>  
-</head>  
-<body>  
-	안녕하세요. 처음 입니다. <br />  
-	Helloworld!!  
-</body>  
-</html>  
-//
+![그림01](https://user-images.githubusercontent.com/67814967/88061762-e6783700-cba2-11ea-8abc-3898450eaf4f.jpg)

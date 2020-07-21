@@ -6,6 +6,7 @@
 
 2. HTML문서의 전체적인 구조를 살펴보자
 
+//
  <!DOCTYPE html>
  
  <html lang= "en" xmlns="http://www.w3.org/1999/xhtml">  
@@ -18,3 +19,4 @@
 	Helloworld!!  
 </body>  
 </html>  
+//
